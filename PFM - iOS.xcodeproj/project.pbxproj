@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC7C535129941D5600250028 /* FinancesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7C535029941D5600250028 /* FinancesTableViewCell.swift */; };
 		CC8951082992B8B300EE70D2 /* FinancesScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8951072992B8B300EE70D2 /* FinancesScreenView.swift */; };
 		CC89510A2992B8D900EE70D2 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8951092992B8D900EE70D2 /* BaseView.swift */; };
 		CC89510D2992BF8800EE70D2 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC89510C2992BF8800EE70D2 /* UIView+Extensions.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CC7C535029941D5600250028 /* FinancesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinancesTableViewCell.swift; sourceTree = "<group>"; };
 		CC8951072992B8B300EE70D2 /* FinancesScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinancesScreenView.swift; sourceTree = "<group>"; };
 		CC8951092992B8D900EE70D2 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
 		CC89510C2992BF8800EE70D2 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
@@ -45,6 +47,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CC7C534F29941D4000250028 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				CC7C535029941D5600250028 /* FinancesTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		CC8951042992B86300EE70D2 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -98,6 +108,7 @@
 		CCA75EA52992B129001196CF /* PFM - iOS */ = {
 			isa = PBXGroup;
 			children = (
+				CC7C534F29941D4000250028 /* Cell */,
 				CC89510B2992BF5F00EE70D2 /* Extensions */,
 				CC8951062992B88800EE70D2 /* Base */,
 				CC8951052992B87C00EE70D2 /* Views */,
@@ -185,6 +196,7 @@
 				CC89510D2992BF8800EE70D2 /* UIView+Extensions.swift in Sources */,
 				CCA75EAB2992B129001196CF /* FinancesViewController.swift in Sources */,
 				CC8951082992B8B300EE70D2 /* FinancesScreenView.swift in Sources */,
+				CC7C535129941D5600250028 /* FinancesTableViewCell.swift in Sources */,
 				CC8951102993DA3000EE70D2 /* UIColor + Extensions.swift in Sources */,
 				CC89510A2992B8D900EE70D2 /* BaseView.swift in Sources */,
 				CCA75EA72992B129001196CF /* AppDelegate.swift in Sources */,
